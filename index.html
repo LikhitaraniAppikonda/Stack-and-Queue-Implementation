@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stack & Queue Implementation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Stack & Queue Implementation</h2>
+  <div class="container">
+    <div class="stack-section">
+      <h3>Stack</h3>
+      <input type="text" id="stackInput" class="input-box" placeholder="Enter value"/>
+      <div class="buttons">
+        <button onclick="push()">➕ Push</button>
+        <button onclick="pop()">➖ Pop</button>
+      </div>
+      <div class="stack-container" id="stack"></div>
+    </div>
+
+    <div class="queue-section">
+      <h3>Queue</h3>
+      <input type="text" id="queueInput" class="input-box" placeholder="Enter value"/>
+      <div class="buttons">
+        <button onclick="enqueue()">📥 Enqueue</button>
+        <button onclick="dequeue()">📤 Dequeue</button>
+      </div>
+      <div class="queue-container" id="queue"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
